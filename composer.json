@@ -1,0 +1,18 @@
+{
+    "name": "admin/app-clima",
+    "description": "App para ver el clima",
+    "autoload": {
+        "psr-4": {
+            "Admin\\AppClima\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pex-Dev",
+            "email": "contacto@brayandev.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
